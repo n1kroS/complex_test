@@ -94,10 +94,6 @@ class ComplexusResult
     {
         $val_case = false;
         while ($val_case != true) {
-            // $first_real = readline('Введите действительную часть Первого комплексного числа: ');
-            // $first_imag = readline('Введите мнимую часть Первого комплексного числа: ');
-            // $second_real = readline('Введите действительную часть Второго комплексного числа: ');
-            // $second_imag = readline('Введите мнимую часть Второго комплексного числа: ');
             $array_vals = array($first_real, $first_imag, $second_real, $second_imag);
             $val_result = 0;
             foreach ($array_vals as $value) {
@@ -113,7 +109,6 @@ class ComplexusResult
         }
 
 
-        // $operation = readline('Какую операцию хотите выполнить? (+, -, *, /) ');
         $operation_case = false;
 
         while ($operation_case == false) {
